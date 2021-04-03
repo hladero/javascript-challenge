@@ -31,6 +31,14 @@ tableData.forEach(function(datareport){
     });  
 });
 
+var button=d3.select('#filter-btn');
+
+//function to call the action
+function handleClick(){
+    console.log
+}
+
+
 //tableData.forEach(([datetime,city,state,country,shape,durationMinutes,comments])=>{
     //var row = d3.tbody.append('tabledata');
     //row.append("td").text(datetime);
